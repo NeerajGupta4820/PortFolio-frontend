@@ -140,7 +140,7 @@ const Navbar = ({ navbarMenuRef, showMenu, setShowMenu }) => {
             <div className="flex lg:hidden w-full bg-black flex-col items-end sticky top-0 left-0 z-50 px-[2rem] py-[12px]">
                 <div className="flex justify-between w-full items-center">
                     <Link to="home" className="">
-                        <h3 onClick={() => navigate('/')} style={{ fontFamily: 'cursive' }} className="text-3xl font-bold cursor-pointer text-orange">Nauman</h3>
+                        <h3 onClick={() => navigate('/')} style={{ fontFamily: 'cursive' }} className="text-3xl font-bold cursor-pointer text-orange">Neeraj</h3>
                     </Link>
                     <div className='flex'>
                         <IconButton onClick={toggleShowNavbar}>
