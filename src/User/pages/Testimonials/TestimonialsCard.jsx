@@ -2,7 +2,7 @@ import { FormatQuote } from "@mui/icons-material";
 
 const TestimonialsCard = ({ content, name, designation, image }) => {
     return (
-        <div className="flex flex-col justify-between bg-darkGray p-4 pb-8 rounded-[20px] h-auto w-[90%] max-w-[350px] mx-auto my-5 shadow-custom">
+        <div className="flex flex-col justify-between bg-darkGray p-4 pb-8 rounded-[20px] h-auto w-[90%] max-w-[700px] mx-auto my-5 shadow-custom">
 
             <FormatQuote style={{ fontSize: '5rem' }} className="object-contain text-white" />
 

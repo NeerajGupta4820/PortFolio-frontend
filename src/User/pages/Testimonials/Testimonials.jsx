@@ -43,7 +43,7 @@ const Testimonials = () => {
                 <Swiper
                     grabCursor={true}
                     centeredSlides={false}  // No centering of slides
-                    slidesPerView={2}       // Show two slides at a time
+                    slidesPerView={1}       // Show two slides at a time
                     spaceBetween={20}       // Add some space between slides
                     pagination={{ clickable: true }}
                     modules={[Pagination]}
